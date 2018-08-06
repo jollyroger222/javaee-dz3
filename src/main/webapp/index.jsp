@@ -56,6 +56,19 @@
 </form>
 </p>
 
+<p>
+<form method="get" action="about" target="_blank">
+    <button type="submit" style="font-size: 2em;">GET about</button>
+</form>
+</p>
+
+
+
+<p>
+<form method="post" action="about" target="_blank">
+    <button type="submit" style="font-size: 2em;">POST about</button>
+</form>
+</p>
 
 </body>
 </html>

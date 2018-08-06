@@ -1,4 +1,4 @@
-package com.mycompany.javaee.dz2.Filter;
+package com.mycompany.javaee.dz3.Filter;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;

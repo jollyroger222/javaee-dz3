@@ -2,23 +2,27 @@
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <servlet>
         <servlet-name>main</servlet-name>
-        <servlet-class>com.mycompany.javaee.dz2.main</servlet-class>
+        <servlet-class>com.mycompany.javaee.dz3.main</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>catalog</servlet-name>
-        <servlet-class>com.mycompany.javaee.dz2.catalog</servlet-class>
+        <servlet-class>com.mycompany.javaee.dz3.catalog</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>product</servlet-name>
-        <servlet-class>com.mycompany.javaee.dz2.product</servlet-class>
+        <servlet-class>com.mycompany.javaee.dz3.product</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>cart</servlet-name>
-        <servlet-class>com.mycompany.javaee.dz2.cart</servlet-class>
+        <servlet-class>com.mycompany.javaee.dz3.cart</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>order</servlet-name>
-        <servlet-class>com.mycompany.javaee.dz2.order</servlet-class>
+        <servlet-class>com.mycompany.javaee.dz3.order</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>aboutServlet</servlet-name>
+        <servlet-class>com.mycompany.javaee.dz3.aboutServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>main</servlet-name>
@@ -41,9 +45,12 @@
         <url-pattern>/order</url-pattern>
     </servlet-mapping>
     <welcome-file-list>
-
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
+    <servlet-mapping>
+        <servlet-name>aboutServlet</servlet-name>
+        <url-pattern>/aboutServlet</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30
